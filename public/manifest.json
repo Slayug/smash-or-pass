@@ -1,6 +1,6 @@
 {
-  "short_name": "Template React Typescript",
-  "name": "Create Typescript React App Sample",
+  "short_name": "Smash or pass",
+  "name": "Smash or pass game",
   "icons": [
     {
       "src": "favicon.ico",
