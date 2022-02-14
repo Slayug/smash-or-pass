@@ -1,0 +1,38 @@
+
+.pokemonComponent {
+  display: flex;
+  .pokemon {
+    display: flex;
+    flex-direction: column;
+
+    margin-bottom: 5px;
+
+    img {
+      margin-top: 5px;
+      margin-bottom: 5px;
+    }
+
+    table {
+      width: 120px;
+      tr {
+        font-size: 0.8em;
+      }
+      th {
+        text-align: left;
+      }
+      td {
+        text-align: right;
+      }
+    }
+
+    .title {
+      height: 35px;
+      width: 350px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-weight: bold;
+    }
+
+  }
+}

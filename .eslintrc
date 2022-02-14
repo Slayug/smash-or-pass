@@ -1,0 +1,23 @@
+{
+  "extends": [
+    "airbnb",
+    "airbnb/hooks",
+    "airbnb-typescript",
+    "prettier"
+  ],
+  "plugins": [
+    "prettier"
+  ],
+  "parserOptions": {
+    "project": "./tsconfig.json"
+  },
+  "rules": {
+    "no-underscore-dangle": "off",
+    "react/react-in-jsx-scope": "off",
+    "no-multiple-empty-lines": "off",
+    "import/prefer-default-export": "off",
+    "prettier/prettier": [
+      "error"
+    ]
+  }
+}

@@ -1,0 +1,14 @@
+version: '3'
+
+services:
+  react-app:
+    container_name: react-app
+    restart: on-failure
+    ports:
+      - '3000:3000'
+    networks:
+      - 'my-network'
+
+networks:
+  my-network:
+    name: my-network

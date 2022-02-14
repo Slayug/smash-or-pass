@@ -1,0 +1,63 @@
+@mixin genType($color) {
+  background-color: $color;
+}
+
+.grass {
+  @include genType(#7BCE52);
+}
+
+.bug {
+  @include genType(#ADBD21)
+}
+
+.poison {
+  @include genType(#B55AA5)
+}
+
+.electric {
+  @include genType(#FFC631)
+}
+
+.ground {
+  @include genType(#D6B55A)
+}
+
+.fire {
+  @include genType(#F75231);
+}
+
+.fairy {
+  @include genType(#E09AE3)
+}
+
+.water {
+  @include genType(#399CFF);
+}
+
+.fighting {
+  @include genType(#A55239)
+}
+
+.psychic {
+  @include genType(#FF73A5)
+}
+
+.normal {
+  @include genType(#ADA594)
+}
+
+.ghost {
+  @include genType(#6363B5)
+}
+
+.steel {
+  @include genType(#ADADC6)
+}
+
+.dragon {
+  @include genType(#8858F6)
+}
+
+.ice {
+  @include genType(#5ACEE7)
+}

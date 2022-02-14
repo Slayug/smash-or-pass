@@ -1,0 +1,55 @@
+@import '../../styles/mixin';
+
+.smashPage {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+
+  div {
+    display: flex;
+    justify-content: center;
+
+    button {
+      margin: 0.2rem;
+    }
+  }
+
+}
+.counter {
+  display: flex;
+  justify-content: center;
+  font-family: 'Jua', sans-serif;
+
+  background-color: #232323;
+
+  div {
+    text-align: center;
+    margin: 1rem;
+  }
+}
+
+.smash {
+  color: #77EE7F;
+}
+
+.pass {
+  color: #EF7778;
+}
+.done {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+
+  .list {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+
+    div {
+      overflow: auto;
+      max-height: 350px;
+      margin: 0.2rem;
+    }
+  }
+}

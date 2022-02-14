@@ -1,0 +1,9 @@
+version: '3'
+
+services:
+  react-app:
+    build:
+      context: ../
+      dockerfile: ./docker/Dockerfile
+    volumes:
+      - ../public/env/Config.js:/usr/share/nginx/html/env/Config.js:ro
